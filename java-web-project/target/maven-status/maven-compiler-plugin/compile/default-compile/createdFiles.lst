@@ -1,0 +1,13 @@
+com/barretoareias/model/bean/UserType.class
+com/barretoareias/model/dao/Database.class
+com/barretoareias/model/bean/BookCategory.class
+com/barretoareias/controller/LoginController.class
+com/barretoareias/model/dao/BorrowedBookDAO.class
+com/barretoareias/model/dao/UserDAO.class
+com/barretoareias/model/bean/BorrowedBook.class
+com/barretoareias/model/bean/Book.class
+com/barretoareias/model/dao/BookDAO.class
+com/barretoareias/model/bean/Author.class
+com/barretoareias/model/bean/User.class
+com/barretoareias/model/dao/AuthorDAO.class
+com/barretoareias/controller/IndexController.class

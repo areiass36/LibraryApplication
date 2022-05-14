@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane fx:id="bn" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.barretoareias.controller.AuthorController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1fffd7" height="57.0" stroke="#1fffd7" strokeType="INSIDE" width="600.0" />
+      <Text fill="#0a0d4d" layoutX="14.0" layoutY="37.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Author" wrappingWidth="272.7294921875">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Text>
+      <Text fx:id="lblMessage" fill="RED" layoutX="14.0" layoutY="371.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="437.248046875" />
+      <Text fx:id="lblBorrowedBooks" fill="#0e136f" layoutX="14.0" layoutY="88.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Add Author" wrappingWidth="272.7294921875">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Button fx:id="btnBack" layoutX="536.0" layoutY="17.0" mnemonicParsing="false" onAction="#onBack" text="Back" />
+      <TextField fx:id="txtName" layoutX="219.0" layoutY="198.0" prefHeight="24.0" prefWidth="163.0" />
+      <Text fx:id="lblName" layoutX="219.0" layoutY="192.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Name:" wrappingWidth="106.0" />
+      <Button fx:id="btnAdd" layoutX="475.0" layoutY="365.0" mnemonicParsing="false" onAction="#onAddAuthor" prefHeight="24.0" prefWidth="115.0" text="Add Author" />
+   </children>
+</Pane>

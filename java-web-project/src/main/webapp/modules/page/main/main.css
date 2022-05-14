@@ -1,0 +1,57 @@
+.main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main table {
+    width: 80%;
+    table-layout: fixed;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.main table td {
+    overflow-x: auto;
+}
+
+.main .action {
+    padding: 1rem;
+}
+
+.main .btn-borrow {
+    min-width: 30px;
+    width: 30px;
+    height: 30px;
+    min-height: 30px;
+    color: white;
+}
+
+.main .user-info {
+    display: flex;
+    align-items: center;
+    width: 90%;
+    column-gap: 10px;
+}
+
+.main .user-info img {
+    border: 1px solid rgb(0, 150, 136);
+    border-radius: 100px;
+    width: 3.5rem;
+    height: 3.5rem;
+    margin-bottom: 1rem;
+}
+
+.main .user-info #user-email {
+    visibility: hidden;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .main table {
+        width: 99%;
+    }
+}
